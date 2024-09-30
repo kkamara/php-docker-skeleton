@@ -19,7 +19,7 @@ composer i
 ## Usage
 
 ```bash
-php src/MainClass.php -f="foo" --bar="baz"
+composer start
 ```
 
 ## Using Linux with Docker?
