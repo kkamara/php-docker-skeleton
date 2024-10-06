@@ -1,4 +1,13 @@
 {
+    "name": "kkamara/php-docker-skeleton",
+    "authors": [
+        {
+            "name": "Kelvin Kamara",
+            "email": "kamaracomputers@gmail.com",
+            "homepage": "https://kelvinkamara.com"
+        }
+    ],
+    "version": "1.0.0",
     "description": "(2020) Get started with PHP and Docker.",
     "require": {
         "monolog/monolog": "1.0.*",
