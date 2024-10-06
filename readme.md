@@ -2,7 +2,7 @@
 
 # PhP Docker Skeleton
 
-(2020) Get started with php and docker.
+(2020) Get started with PHP and Docker.
 
 ## Installation
 
