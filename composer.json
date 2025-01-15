@@ -20,7 +20,7 @@
     },
     "scripts": {
         "start": [
-            "@php src/MainClass.php -f=\"foo\" --bar=\"baz\""
+            "@php src/MainClass.php"
         ]
     }
 }

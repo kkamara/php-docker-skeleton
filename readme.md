@@ -19,7 +19,7 @@ composer i
 ## Usage
 
 ```bash
-composer start
+composer start -- -f=foo --bar=baz
 ```
 
 ## Using Linux with Docker?
