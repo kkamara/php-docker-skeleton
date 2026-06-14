@@ -4,6 +4,18 @@
 
 (2020) Get started with PHP and Docker.
 
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [Not Using Docker?](#not-using-docker)
+
+* [Misc.](#misc)
+
+* [Contributing](#contributing)
+
+* [License](#license)
+
 ## Installation
 
 * [PHP](https://herd.laravel.com/)
@@ -19,21 +31,19 @@ composer i
 ## Usage
 
 ```bash
+# to run on first time
+docker-compose up --build
+# to run in background
+docker-compose up --build -d
+# to run when file-changes have been made
+docker-compose up
+```
+
+<a name="not-using-docker"></a>
+#### Not Using Docker?
+
+```bash
 composer start -- -f=foo --bar=baz
-```
-
-## Using Linux with Docker?
-
-```bash
-make start # build & run your script
-make stop  # stop your docker container
-```
-
-## Using Windows with Docker?
-
-```bash
-.\ps\run.ps1 start # build & run your script
-.\ps\run.ps1 stop  # stop your docker container
 ```
 
 ## Misc.
